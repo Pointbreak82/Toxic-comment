@@ -1,4 +1,5 @@
-from nltk.util import pr
+# from nltk.util import pr
+from nltk.stem import PorterStemmer
 import pandas as pd
 import numpy as np
 from sklearn.feature_extraction.text import CountVectorizer
