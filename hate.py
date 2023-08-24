@@ -1,4 +1,4 @@
-pip install -r requirements.txt
+# pip install -r requirements.txt
 
 from nltk.util import pr
 from nltk.stem import PorterStemmer
