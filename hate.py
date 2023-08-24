@@ -1,6 +1,4 @@
-!pip install scikit-learn
-!pip install sklearn
-!pip install nltk
+pip install scikit-learn nltk sklearn
 
 from nltk.util import pr
 from nltk.stem import PorterStemmer
