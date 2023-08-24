@@ -4,11 +4,6 @@ import subprocess
 # Install required packages
 subprocess.call(['pip', 'install', 'scikit-learn', 'nltk'])
 
-# Import Streamlit and other modules
-import streamlit as st
-import nltk
-from sklearn.feature_extraction.text import CountVectorizer
-# ... rest of your Streamlit app code ...
 
 from nltk.util import pr
 from nltk.stem import PorterStemmer
@@ -32,6 +27,7 @@ import nltk
 stemmer = nltk.SnowballStemmer("english")
 from nltk.corpus import stopwords
 import string
+nltk.download('stopwords')
 stopword=set(stopwords.words('english'))
 
 def clean(text):
